@@ -227,6 +227,7 @@ p {
 #product1 .pro .des{
     text-align: start;
     padding: 10px 0;
+
 }
 
 #product1 .pro .des span{
@@ -238,11 +239,21 @@ p {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
+    color: #088178;
 }
 
 #product .pro .des h4{
     padding-top:7px;
     font-size: 15px;
     font-weight: 700;
+}
+
+#product .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
     color: #088178;
 }

@@ -12,8 +12,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -23,8 +23,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -34,8 +34,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -45,8 +45,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -56,8 +56,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -67,8 +67,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -78,8 +78,8 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
+                    </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
@@ -89,9 +89,9 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    </div>
                     <h4>Rs 499</h4>
-                    <a href="#"><span class="material-symbols-outlined">
+                    </div>
+                    <a href="#"><span class="material-symbols-outlined cart">
                     shopping_cart
                 </span></a>
                 </div>     
