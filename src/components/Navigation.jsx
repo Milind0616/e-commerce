@@ -10,10 +10,10 @@ const Navigation = () => {
                     <li><a href="Shop.jsx">Shop</a></li>
                     <li><a href="Blog.jsx">Blog</a></li>
                     <li><a href="About.jsx">About</a></li>
-                    <li><a href="Contace.jsx">Contact</a></li>
                     <li><a href="Cart.jsx"><span class="material-symbols-outlined">
                         shopping_cart
                     </span></a></li>
+                    <li><button><Dark></Dark></button></li>
                 </ul>
             </div>
         </section>
