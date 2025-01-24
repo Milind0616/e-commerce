@@ -12,7 +12,7 @@ const Items = () => {
                     <div className='des'>
                         <span>Adidis</span>
                         <h5>Cartoon Astronaut T-Shirts</h5>
-                    <h4>Rs 499</h4>
+                        <h4>Rs 499</h4>
                     </div>
                     <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
@@ -91,7 +91,7 @@ const Items = () => {
                         <h5>Cartoon Astronaut T-Shirts</h5>
                     <h4>Rs 499</h4>
                     </div>
-                    <a href="#"><span class="material-symbols-outlined cart">
+                    <a href="#"><span class="material-symbols-outlined">
                     shopping_cart
                 </span></a>
                 </div>     
