@@ -1,4 +1,3 @@
-
 /* Global Styles */
 
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -39,13 +38,13 @@ h6 {
 
 .section-p1 {
     padding: 40px 80px;
-  }
-  
+}
+
 .section-m1 {
     margin: 40px 0;
-  }
+}
 
-  
+
 p {
     font-size: 16px;
     color: #465b52;
@@ -127,7 +126,7 @@ p {
     color: #088178
 }
 
-.hero button{
+.hero button {
     background-image: url("img/button.png");
     background-color: transparent;
     color: #088178;
@@ -136,7 +135,7 @@ p {
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
-    font-size: 16px;   
+    font-size: 16px;
 }
 
 /* features */
@@ -148,7 +147,7 @@ p {
     flex-wrap: wrap;
 }
 
-#feature .feature__container{
+#feature .feature__container {
     width: 180px;
     text-align: center;
     padding: 25px 15px;
@@ -157,58 +156,59 @@ p {
     margin: 15px 0;
 }
 
-#feature .feature__container:hover{
+#feature .feature__container:hover {
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.1);
 }
 
-#feature .feature__container img{
+#feature .feature__container img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-#feature .feature__container h5{
+#feature .feature__container h5 {
     display: inline-block;
-    padding: 9px 8px 6px  8px;
+    padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
     color: #088178;
     background-color: #fddde4;
 }
 
-#feature .feature__container:nth-child(2) h5{
+#feature .feature__container:nth-child(2) h5 {
     background-color: #e8f7f2;
 }
 
-#feature .feature__container:nth-child(3) h5{
+#feature .feature__container:nth-child(3) h5 {
     background-color: #919deb;
 }
 
-#feature .feature__container:nth-child(4) h5{
+#feature .feature__container:nth-child(4) h5 {
     background-color: #fcb79c;
 }
 
-#feature .feature__container:nth-child(5) h5{
+#feature .feature__container:nth-child(5) h5 {
     background-color: #eef894;
 }
 
-#feature .feature__container:nth-child(6) h5{
+#feature .feature__container:nth-child(6) h5 {
     background-color: #fab5b5;
 }
 
 /* product/item */
 
-#product1{
+#product1 {
     text-align: center;
 }
 
-.product__container{
+.product__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
 }
-#product1 .pro{
+
+#product1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -221,37 +221,37 @@ p {
     position: relative;
 }
 
-#product1 .pro img{
+#product1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-#product1 .pro .des{
+#product1 .pro .des {
     text-align: start;
     padding: 10px 0;
 
 }
 
-#product1 .pro .des span{
+#product1 .pro .des span {
     color: #606063;
     font-size: 12px;
 }
 
-#product .pro .des h5{
+#product .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
     color: #088178;
 }
 
-#product .pro .des h4{
-    padding-top:7px;
+#product .pro .des h4 {
+    padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
     color: #088178;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -259,7 +259,7 @@ p {
     background-color: #e8f6ea;
     font-weight: 500;
     color: #088178;
-    border:1px solid #cce7d0;
+    border: 1px solid #cce7d0;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -268,7 +268,7 @@ p {
 
 /* banner section */
 
-#banner{
+#banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,28 +281,83 @@ p {
     background-position: center;
 }
 
-#banner h3{
+#banner h3 {
     color: white;
     font-size: 16px;
 }
 
-#banner h2{
+#banner h2 {
     color: wheat;
     font-size: 30px;
     padding: 10px 0;
 }
 
-#banner h2 span{
+#banner h2 span {
     color: red;
 }
 
-#banner .btn{
+#banner .btn {
     font-size: 15px;
     font-weight: 550;
     padding: 15px 30px;
 }
 
-#banner .btn:hover{
+#banner .btn:hover {
     background-color: #088178;
     color: white;
+}
+
+
+/* promotion banner */
+
+#promo {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#promo .promo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex;
+    margin: 40px 0;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    padding: 30px;
+}
+
+#promo h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#promo h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#promo span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#promo .promo-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex;
+    margin: 40px 0;
+    background-image: url("img/banner/b18.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    padding: 30px;
 }
