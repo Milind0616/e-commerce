@@ -7,14 +7,14 @@ const Promotion = () => {
                 <h4>crazy deals</h4>
                 <h2>buy 1 get 1 free</h2>
                 <span>The best classic dress is on sale at cara</span>
-                <button>Learn More</button>
+                <button className='white'>Learn More</button>
             </div>
 
             <div className='banner-box1'>
-                <h4>crazy deals</h4>
-                <h2>buy 1 get 1 free</h2>
+                <h4>spring/summer</h4>
+                <h2>upcomming season</h2>
                 <span>The best classic dress is on sale at cara</span>
-                <button>Learn More</button>
+                <button className='white'>Collection</button>
             </div>
 
         </section>

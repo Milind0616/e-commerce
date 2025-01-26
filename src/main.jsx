@@ -10,6 +10,8 @@ import Items from './components/Items.jsx'
 import Banner from './components/Banner.jsx'
 import NewPro from './components/NewPro.jsx'
 import Promotion from './components/Promotion.jsx'
+import Textbanner from './components/Textbanner.jsx'
+import Newsletter from './components/Newsletter.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,5 +24,7 @@ createRoot(document.getElementById('root')).render(
     <Banner />
     <NewPro />
     <Promotion />
+    <Textbanner />
+    <Newsletter />
   </StrictMode>,
 )
